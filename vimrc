@@ -81,13 +81,13 @@ nnoremap <silent>jd :YcmCompleter GoToDefinitionElseDeclaration<CR>
 
 map <F4> :call TitleDet()<cr>
 function AddTitle()
-    call append(0,"# ******************************************************")
-    call append(1,"# Author       : 90Zeng")
+    call append(0,"/******************************************************")
+    call append(1,"# Author       : Yii-Kai Mao")
     call append(2,"# Last modified: ".strftime("%Y-%m-%d %H:%M"))
-    call append(3,"# Email        : omezengjl@gmail.com")
+    call append(3,"# Email        : yiikai1987910@gmail.com")
     call append(4,"# Filename     : ".expand("%:t"))
     call append(5,"# Description  : ")
-    call append(6,"# ******************************************************")
+    call append(6,"******************************************************/")
     echohl WarningMsg | echo "Successful in adding copyright." | echohl None
 endf
  
